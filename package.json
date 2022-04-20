@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://gitlab.com/nelsonlai9503-workspace/web3j-wrapper-compile/issues"
   },
-  "homepage": "https://gitlab.com/nelsonlai9503-workspace/web3j-wrapper-compile#readme"
+  "homepage": "https://gitlab.com/nelsonlai9503-workspace/web3j-wrapper-compile#readme",
+  "dependencies": {
+    "solc": "^0.8.13"
+  }
 }
