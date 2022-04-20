@@ -3,11 +3,5 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - name: install etherem
-    command: sudo add-apt-repository ppa:ethereum/ethereum
-  - name: update apt-get
-    command: sudo apt-get update
-  - name: install solc
-    command: sudo apt-get install solc
   - name: install web3j
     command: curl -L get.web3j.io | sh && source ~/.web3j/source.sh

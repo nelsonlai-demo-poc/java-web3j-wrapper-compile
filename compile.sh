@@ -1,6 +1,6 @@
 
 # no need extension
-export CONTRACT_FILE_NAME=StakingPoolCompile
+export CONTRACT_FILE_NAME=StakingPool
 export COMPANY=net.lateshow.util
 
 solc $CONTRACT_FILE_NAME.sol --bin --abi --optimize --overwrite -o .
